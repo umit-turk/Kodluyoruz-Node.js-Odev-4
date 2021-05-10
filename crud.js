@@ -17,7 +17,7 @@ setTimeout(() => {
 //DOSYA GUNCELLEME
 
    setTimeout(() => {
-    fs.appendFile('employees.json', '\n {"name": "Ahmet"}', 'utf8', (err, data)=>{
+    fs.appendFile('employees.json', '\n {"name": "Ahmet"}', 'utf8', (err)=>{
         console.log(err);
         console.log('1 saniye sonra guncellendi');
     }) ;
